@@ -1,0 +1,17 @@
+---
+title: "NOAA Office of National Marine Sanctuaries - Webenized Products"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Coming Soon...
+
+For now, this is a website placeholder for all the infographic and automation products being generated in this coding playground:
+
+
+http://github.com/noaa-onms
+
+We will build out a portfolio website here.
