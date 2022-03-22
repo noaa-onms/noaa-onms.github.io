@@ -1,0 +1,56 @@
+name: "sanctuaries"
+navbar:
+  logo:
+    image: "./images/onms-logo-no-text-800.png"
+    href: "https://noaa-onms.github.io/"
+  title: <img src='./images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuaries
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "WebCRs"
+      href: webcrs.html
+      menu:
+        - text: "Channel Islands"
+          href: https://noaa-onms.github.io/cinms/
+        - text: "Florida Keys"
+          href: https://noaa-iea.github.io/fk-esr-info/infographic.html
+        - text: "Monterey Bay"
+          href: https://noaa-onms.github.io/info-mb/
+        - text: "Olympic Coast"
+          href: https://noaa-onms.github.io/ocnms/
+    - text: "Issues"
+      href: issues.html
+      menu:
+        - text: "Sound"
+          href: https://noaa-onms.github.io/sanctsound/draft/
+    - text: "Management Tools"
+      href: tools.html
+      menu:
+        - text: "Florida Keys Zoning Effectiveness Project"
+          href: "."
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme:
+      #version: 5
+      bootswatch: yeti
+      bg: '#FFF'
+      fg: '#013088'
+      # bg: "#101010"
+      # fg: "#FDF7F7"
+      #primary: "#ED79F9"
+      #013088
+      base_font:
+        google: "Prompt"
+      code_font:
+        google: "JetBrains Mono"
+    css:
+    - libs/styles.css
+    self_contained: no
+    lib_dir: site_libs
+    mathjax: ~
+    includes:
+      in_header: libs/header.html
+      after_body: libs/footer.html
+output_dir: '.'
