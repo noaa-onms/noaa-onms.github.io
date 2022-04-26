@@ -3,7 +3,7 @@ navbar:
   logo:
     image: "./images/onms-logo-no-text-800.png"
     href: "https://noaa-onms.github.io/"
-  title: <img src='./images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuaries
+  title: <img src='./images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuary Watch
   left:
     - text: "Home"
       href: index.html
@@ -33,7 +33,7 @@ navbar:
 output:
   html_document:
     theme:
-      #version: 5
+      version: 5
       bootswatch: yeti
       bg: '#FFF'
       fg: '#013088'
