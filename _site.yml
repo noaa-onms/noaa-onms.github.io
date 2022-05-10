@@ -15,19 +15,16 @@ navbar:
         - text: "Florida Keys"
           href: https://noaa-iea.github.io/fk-esr-info/infographic.html
         - text: "Monterey Bay"
-          href: https://noaa-onms.github.io/info-mb/
+          href: https://noaa-onms.github.io/mbnms/
         - text: "Olympic Coast"
           href: https://noaa-onms.github.io/ocnms/
     - text: "Issues"
       href: issues.html
       menu:
         - text: "Sound"
-          href: https://noaa-onms.github.io/sanctsound/draft/
+          href: https://sanctsound.ioos.us/
     - text: "Management Tools"
       href: tools.html
-      menu:
-        - text: "Florida Keys Zoning Effectiveness Project"
-          href: "."
     - text: "About"
       href: about.html
 output:
