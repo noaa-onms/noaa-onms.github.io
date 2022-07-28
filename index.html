@@ -16,36 +16,12 @@
 <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<link href="site_libs/bootstrap-5.1.0/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-5.1.0/bootstrap.bundle.min.js"></script>
-<link href="site_libs/_Prompt-0.4.1/font.css" rel="stylesheet" />
-<link href="site_libs/_JetBrains Mono-0.4.1/font.css" rel="stylesheet" />
-<script src="site_libs/bs3compat-0.3.1/transition.js"></script>
-<script src="site_libs/bs3compat-0.3.1/tabs.js"></script>
-<script src="site_libs/bs3compat-0.3.1/bs3compat.js"></script>
+<link href="site_libs/bootstrap-3.4.1/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.4.1/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-accessibility-1.0.6/plugins/js/bootstrap-accessibility.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<!--div class="custom-header">
-  <div class="wrap">
-    <div class="custom-logo">
-	    <a href="https://ioos.us/">
-  	    <img 
-  	      src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png" 
-  	      class="img-responsive d-block">
-	    </a>
-    </div>
-  </div>
-</div-->
-<header style="position: static; top: 0px;">
-  <div class="container-fluid">
-    <a href="https://ioos.us" style="visibility: visible;">
-      <img src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png">
-    </a>
-  </div>
-</header>
-
-
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -256,14 +232,11 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img src='images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuary Watch</a>
+      <a class="navbar-brand" href="index.html">Sanctuary Watch</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     WebCRs
      
@@ -309,6 +282,23 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
+<!-- IOOS.us style -->
+<header>
+    
+    <div class="container-full">
+      <div class="image-center">
+         <a  href="https://ioos.us">
+          <img class ="logo" src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png">
+          </a>      
+      </div>
+      <div class ="breadcrumb-ioos">
+        <span class = "header-margin">
+</span>
+      </div>
+    </div>
+    
+    
+</header>
 
 <div id="header">
 
@@ -405,6 +395,7 @@ alt="“Sanctuary Soundscape Monitoring Project”" /></a></p>
 <script>
 $(function() {
   // move header and navbar outside main-container for full width
+    $('header').prependTo('body')
   $('.main-container').after($('#footer'));
   $('.main-container').before($('.navbar'));
 

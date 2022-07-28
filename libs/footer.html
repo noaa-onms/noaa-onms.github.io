@@ -48,6 +48,7 @@
 <script>
 $(function() {
   // move header and navbar outside main-container for full width
+    $('header').prependTo('body')
   $('.main-container').after($('#footer'));
   $('.main-container').before($('.navbar'));
 

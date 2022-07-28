@@ -3,10 +3,9 @@ navbar:
   logo:
     image: "./images/onms-logo-no-text-800.png"
     href: "https://noaa-onms.github.io/"
-  title: <img src='./images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuary Watch
+  title: "Sanctuary Watch"
+  icon: fa-info
   left:
-    - text: "Home"
-      href: index.html
     - text: "WebCRs"
       href: webcrs.html
       menu:
@@ -30,24 +29,16 @@ navbar:
 output:
   html_document:
     theme:
-      version: 5
-      bootswatch: yeti
-      bg: '#FFF'
-      fg: '#013088'
-      # bg: "#101010"
-      # fg: "#FDF7F7"
-      #primary: "#ED79F9"
-      #013088
-      base_font:
-        google: "Prompt"
-      code_font:
-        google: "JetBrains Mono"
+      version: 3
+      bootswatch: cerulean
+      primary: '#00467f' # sanctuaries.noaa.gov navbar: darkblue=#00467f, teal=#008da8
+      secondary: '#FFF'
     css:
     - libs/styles.css
     self_contained: no
     lib_dir: site_libs
     mathjax: ~
     includes:
-      in_header: libs/header.html
+      before_body: libs/before_body.html
       after_body: libs/footer.html
 output_dir: '.'
