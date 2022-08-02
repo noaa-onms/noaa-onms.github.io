@@ -11,41 +11,17 @@
 
 
 
-<title>Web-enabled Information for Sanctuary Management (Sanctuary Watch)</title>
+<title>Web-enabled Information for Sanctuary Management</title>
 
 <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<link href="site_libs/bootstrap-5.1.0/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-5.1.0/bootstrap.bundle.min.js"></script>
-<link href="site_libs/_Prompt-0.4.1/font.css" rel="stylesheet" />
-<link href="site_libs/_JetBrains Mono-0.4.1/font.css" rel="stylesheet" />
-<script src="site_libs/bs3compat-0.3.1/transition.js"></script>
-<script src="site_libs/bs3compat-0.3.1/tabs.js"></script>
-<script src="site_libs/bs3compat-0.3.1/bs3compat.js"></script>
+<link href="site_libs/bootstrap-3.4.1/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.4.1/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-accessibility-1.0.6/plugins/js/bootstrap-accessibility.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<!--div class="custom-header">
-  <div class="wrap">
-    <div class="custom-logo">
-	    <a href="https://ioos.us/">
-  	    <img 
-  	      src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png" 
-  	      class="img-responsive d-block">
-	    </a>
-    </div>
-  </div>
-</div-->
-<header style="position: static; top: 0px;">
-  <div class="container-fluid">
-    <a href="https://ioos.us" style="visibility: visible;">
-      <img src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png">
-    </a>
-  </div>
-</header>
-
-
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -260,10 +236,7 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     WebCRs
      
@@ -275,9 +248,6 @@ $(document).ready(function () {
     </li>
     <li>
       <a href="https://noaa-iea.github.io/fk-esr-info/infographic.html">Florida Keys</a>
-    </li>
-    <li>
-      <a href="https://noaa-onms.github.io/info-mb/">Monterey Bay</a>
     </li>
     <li>
       <a href="https://noaa-onms.github.io/ocnms/">Olympic Coast</a>
@@ -292,19 +262,7 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://noaa-onms.github.io/sanctsound/draft/">Sound</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Management Tools
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href=".">Florida Keys Zoning Effectiveness Project</a>
+      <a href="https://sanctsound.ioos.us/">Sound</a>
     </li>
   </ul>
 </li>
@@ -318,13 +276,30 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
+<!-- IOOS.us style -->
+<header>
+    
+    <div class="container-full">
+      <div class="image-center">
+         <a  href="https://ioos.us">
+          <img class ="logo" src="https://ioos.us/images/IOOS_Emblem_Tertiary_B_RGB.png">
+          </a>      
+      </div>
+      <div class ="breadcrumb-ioos">
+        <span class = "header-margin">
+</span>
+      </div>
+    </div>
+    
+    
+</header>
 
 <div id="header">
 
 
 
 <h1 class="title toc-ignore">Web-enabled Information for Sanctuary
-Management (Sanctuary Watch)</h1>
+Management</h1>
 
 </div>
 
@@ -357,10 +332,17 @@ new synergies</li>
 </div>
 <div id="partners" class="section level2">
 <h2>Partners</h2>
-<p><img src="images/logo_onms.png" height="56px"/>
-<img src="images/logo_iea.jpg" height="56px"/>
-<img src="images/logo_ioos.png" height="56px"/>
-<img src="images/logo_nccos.png" height="56px"/></p>
+<p><a href="https://sanctuaries.noaa.gov/science/"><img
+src="images/logo_onms.png" height="56"
+alt="National Marine Sanctuaries" /></a>    <a
+href="https://www.integratedecosystemassessment.noaa.gov/partners/national-marine-sanctuaries"><img
+src="images/logo_iea.jpg" height="56"
+alt="Integrated Ecosystem Assessment" /></a>    <a
+href="https://noaa-onms.github.io/ocnms/"><img
+src="images/logo_ioos.png" height="56"
+alt="Integrated Ocean Observing System" /></a>    <a
+href="https://coastalscience.noaa.gov/"><img src="images/logo_nccos.png"
+height="56" alt="National Centers for Coastal Ocean Science" /></a></p>
 </div>
 <div id="more-information" class="section level2">
 <h2>More Information</h2>
@@ -441,8 +423,10 @@ Software</a> (beta)</p></li>
 </div>
 
 <script>
+
 $(function() {
   // move header and navbar outside main-container for full width
+    $('header').prependTo('body')
   $('.main-container').after($('#footer'));
   $('.main-container').before($('.navbar'));
 
@@ -496,6 +480,17 @@ $(function() {
   },
   headerScroll()
 });
+
+// Make all links open in new tabs
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+
 </script>
 
 
