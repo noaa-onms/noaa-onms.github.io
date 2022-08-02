@@ -13,8 +13,6 @@ navbar:
           href: https://noaa-onms.github.io/cinms/
         - text: "Florida Keys"
           href: https://noaa-iea.github.io/fk-esr-info/infographic.html
-        - text: "Monterey Bay"
-          href: https://noaa-onms.github.io/mbnms/
         - text: "Olympic Coast"
           href: https://noaa-onms.github.io/ocnms/
     - text: "Issues"
