@@ -349,3 +349,13 @@ figure {
 .navbar-default:hover {
   background-color: #00467F;
 }
+
+.navbar-brand > img {
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+
+h2 {
+  color: #024880;
+}

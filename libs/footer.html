@@ -46,6 +46,7 @@
 </div>
 
 <script>
+
 $(function() {
   // move header and navbar outside main-container for full width
     $('header').prependTo('body')
@@ -102,4 +103,15 @@ $(function() {
   },
   headerScroll()
 });
+
+// Make all links open in new tabs
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+
 </script>

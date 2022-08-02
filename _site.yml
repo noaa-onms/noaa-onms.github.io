@@ -3,7 +3,7 @@ navbar:
   logo:
     image: "./images/onms-logo-no-text-800.png"
     href: "https://noaa-onms.github.io/"
-  title: "Sanctuary Watch"
+  title: <img src='./images/onms-logo-no-text-800.png' width='32p' style='vertical-align:top'> Sanctuary Watch
   icon: fa-info
   left:
     - text: "WebCRs"
@@ -22,8 +22,6 @@ navbar:
       menu:
         - text: "Sound"
           href: https://sanctsound.ioos.us/
-    - text: "Management Tools"
-      href: tools.html
     - text: "About"
       href: about.html
 output:
