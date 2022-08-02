@@ -1,7 +1,7 @@
 ---
-title: "Web-enabled Information for Sanctuary Management"
+title: About
 ---
-
+## Web-enabled Information for Sanctuary Management
 Easy access to information for tracking ecosystem conditions, human connections and management impacts are critical to timely, effective and community-based resource management. Through an exciting collaboration that leverages expertise across NOAA's IOOS Program (including the [Marine Biodiversity Observation Network](https://marinebon.org)), [Integrated Ecosystem Assessment (IEA) Program](https://www.integratedecosystemassessment.noaa.gov/), [National Centers for Coast and Ocean Science (NCCOS)](https://coastalscience.noaa.gov/) and the [Office of National Marine Sanctuaries (ONMS)](https://sanctuaries.noaa.gov/), we are developing web-based, interactive tools to track and better understand the changing nature of sanctuary ecosystems. These user-friendly tools bring ecosystem tracking and assessment information to the fingertips of resource managers, scientists, educators, and the public.
 
 ## Goals

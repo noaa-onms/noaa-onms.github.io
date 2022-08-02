@@ -1,5 +1,5 @@
 ---
-title-prefix: Sanctuary Watch
+title: Sanctuary Watch
 ---
 
 ## WebCR - Tracking Information for Condition Reporting

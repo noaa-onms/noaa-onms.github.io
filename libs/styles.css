@@ -359,3 +359,7 @@ figure {
 h2 {
   color: #024880;
 }
+
+h1 {
+  display: none;
+}
