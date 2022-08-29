@@ -15,7 +15,7 @@ navbar:
           href: https://noaa-iea.github.io/fk-esr-info/infographic.html
         - text: "Olympic Coast"
           href: https://noaa-onms.github.io/ocnms/
-    - text: "Issues"
+    - text: "Conservation Issues"
       href: issues.html
       menu:
         - text: "Sound"
