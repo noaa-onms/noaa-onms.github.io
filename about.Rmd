@@ -28,4 +28,4 @@ For more information about this approach:
 
 -   [A quantitative and qualitative decision-making process for selecting indicators to track ecosystem condition](https://doi.org/10.1016/j.marpol.2021.104489)
 
--   [Marine Biodiversity Observation Network (MBON) Product Inventory: Data & Software](https://marinebon2.netlify.app/product_viewer/) (beta)
+-   [Marine Biodiversity Observation Network (MBON) Product Inventory: Data & Software](https://marinebon.org/data-products) (beta)
